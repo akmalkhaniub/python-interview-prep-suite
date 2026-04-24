@@ -11,6 +11,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Python Staff Engineer](./python-staff-engineer/) | `.ipynb` (runnable) | 27 notebooks | ✅ Complete |
 | [Senior AWS DevOps Engineer](./aws-devops-engineer/) | `.md` (reference) | 89 questions / 10 files | ✅ Complete |
 | [.NET Chief Architect](./dotnet-chief-architect/) | `.md` (reference) | 52 questions / 8 files | ✅ Complete |
+| [Full Stack Developer (React & Node.js)](./fullstack-react-nodejs/) | `.md` (reference) | 32 questions / 7 files | ✅ Complete |
 
 ---
 
@@ -30,6 +31,10 @@ interview-prep/
 │   ├── README.md
 │   ├── JD.md
 │   └── 01..08-*.md
+├── fullstack-react-nodejs/         ← Markdown Q&A files
+│   ├── README.md
+│   ├── JD.md
+│   └── 01..07-*.md
 └── <future-role>/                  ← Add more roles here
     ├── README.md
     ├── JD.md
