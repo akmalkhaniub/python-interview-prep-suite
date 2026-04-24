@@ -12,6 +12,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Senior AWS DevOps Engineer](./aws-devops-engineer/) | `.md` (reference) | 89 questions / 10 files | ✅ Complete |
 | [.NET Chief Architect](./dotnet-chief-architect/) | `.md` (reference) | 52 questions / 8 files | ✅ Complete |
 | [Full Stack Developer (React & Node.js)](./fullstack-react-nodejs/) | `.md` (reference) | 32 questions / 7 files | ✅ Complete |
+| [Technical SEO & Frontend Engineer](./technical-seo-frontend-engineer/) | `.md` (reference) | 28 questions / 6 files | ✅ Complete |
 
 ---
 
@@ -35,6 +36,10 @@ interview-prep/
 │   ├── README.md
 │   ├── JD.md
 │   └── 01..07-*.md
+├── technical-seo-frontend-engineer/← Markdown Q&A files
+│   ├── README.md
+│   ├── JD.md
+│   └── 01..06-*.md
 └── <future-role>/                  ← Add more roles here
     ├── README.md
     ├── JD.md
