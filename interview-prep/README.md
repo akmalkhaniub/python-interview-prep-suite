@@ -13,6 +13,8 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [.NET Chief Architect](./dotnet-chief-architect/) | `.md` (reference) | 52 questions / 8 files | ✅ Complete |
 | [Full Stack Developer (React & Node.js)](./fullstack-react-nodejs/) | `.md` (reference) | 32 questions / 7 files | ✅ Complete |
 | [Technical SEO & Frontend Engineer](./technical-seo-frontend-engineer/) | `.md` (reference) | 28 questions / 6 files | ✅ Complete |
+| [Senior Python Django GCP Engineer](./python-django-gcp-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
+| [Full Stack Developer (AI)](./aim-fullstack-ai-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
 
 ---
 
