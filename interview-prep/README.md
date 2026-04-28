@@ -16,6 +16,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Senior Python Django GCP Engineer](./python-django-gcp-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
 | [Full Stack Developer (AI)](./aim-fullstack-ai-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
 | [AI/ML Video Pitch Prep](./ai-ml-video-pitch/) | `.md` (templates) | Script & Checklist | ✅ New |
+| [Azure AI & LLM Solutions Engineer](./azure-ai-llm-solutions-engineer/) | `.md` (reference) | 25+ questions / 5 modules | ✅ New |
 
 ---
 
