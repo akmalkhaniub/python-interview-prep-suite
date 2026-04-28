@@ -15,6 +15,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Technical SEO & Frontend Engineer](./technical-seo-frontend-engineer/) | `.md` (reference) | 28 questions / 6 files | ✅ Complete |
 | [Senior Python Django GCP Engineer](./python-django-gcp-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
 | [Full Stack Developer (AI)](./aim-fullstack-ai-engineer/) | `.md` (reference) | 50 questions / 10 files | ✅ Complete |
+| [AI/ML Video Pitch Prep](./ai-ml-video-pitch/) | `.md` (templates) | Script & Checklist | ✅ New |
 
 ---
 
