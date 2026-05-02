@@ -26,6 +26,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [AI Consultant (Strategy & Architecture)](./ai-consultant-strategy/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [AI Engineer (Production & Product)](./ai-engineer-production/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Full-Stack Developer (Web & Mobile)](./fullstack-web-mobile-dev/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Frontend Developer (Web & Mobile Specialist)](./frontend-web-mobile-specialist/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 
 ---
 
