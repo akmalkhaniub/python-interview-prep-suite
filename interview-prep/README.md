@@ -32,6 +32,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Python Game Developer](./python-game-developer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [AI Software Engineer - Cloud](./ai-software-engineer-cloud/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Backend Software Engineer (Specialist)](./backend-software-engineer-specialist/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [OpenXR & Graphics Engineer (Software Engineer III)](./openxr-graphics-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 
 ---
 
