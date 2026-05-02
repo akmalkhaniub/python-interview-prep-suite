@@ -23,6 +23,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Senior CV & Agentic AI Engineer](./senior-cv-agentic-ai-engineer/) | `.md` & `.ipynb` | 30+ questions / 5 modules | ✅ New |
 | [Senior Machine Learning Engineer (Scale)](./senior-ml-engineer-scale/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Software Engineer, New Grad (Zara)](./zara-new-grad-software-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [AI Consultant (Strategy & Architecture)](./ai-consultant-strategy/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 
 ---
 
