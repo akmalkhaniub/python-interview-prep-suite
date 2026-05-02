@@ -34,6 +34,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Backend Software Engineer (Specialist)](./backend-software-engineer-specialist/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [OpenXR & Graphics Engineer (Software Engineer III)](./openxr-graphics-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Member of Technical Staff (AI Engineering)](./mts-ai-engineering/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Senior Full Stack / Applied AI Engineer](./senior-fullstack-applied-ai/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 
 ---
 
