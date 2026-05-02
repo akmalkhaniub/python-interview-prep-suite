@@ -20,6 +20,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Senior Microsoft Fabric Data Engineer](./microsoft-fabric-data-engineer/) | `.md` (reference) | 30+ questions / 6 modules | ✅ New |
 | [Senior Azure LLMOps Engineer](./azure-llmops-engineer/) | `.md` (reference) | 30+ questions / 6 modules | ✅ New |
 | [Machine Learning Software Developer (Remote)](./sourced-ml-software-developer/) | `.md` & `.ipynb` | 25+ questions / 6 modules | ✅ New |
+| [Senior CV & Agentic AI Engineer](./senior-cv-agentic-ai-engineer/) | `.md` & `.ipynb` | 30+ questions / 5 modules | ✅ New |
 
 ---
 
