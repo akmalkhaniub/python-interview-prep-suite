@@ -35,6 +35,21 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [OpenXR & Graphics Engineer (Software Engineer III)](./openxr-graphics-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Member of Technical Staff (AI Engineering)](./mts-ai-engineering/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Senior Full Stack / Applied AI Engineer](./senior-fullstack-applied-ai/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Senior Deel Full Stack Engineer](./deel-senior-fullstack-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [AI Platform Agent Engineer](./ai-platform-agent-engineer/) | `.md` & `.ipynb` | 30+ questions / 8 modules | ✅ New |
+| [Real-Time AI Avatar Engineer](./real-time-ai-avatar-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Smart Working Senior Frontend Developer](./smart-working-senior-frontend/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Smart Working Senior AWS DevOps Engineer](./smart-working-senior-devops/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Edge Labs Head of AI Systems & Automation](./edge-labs-head-of-ai/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [WhizPay Engineering Lead](./whizpay-engineering-lead/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Lead Full Stack Software Engineer (Trickle Up)](./trickle-up-lead-fullstack/) | `.md` & `.ipynb` | 30+ questions / 4 modules | ✅ New |
+| [Full Stack Engineer (Marketing Agency)](./marketing-agency-fullstack-engineer/) | `.md` & `.ipynb` | 20+ questions / 3 modules | ✅ New |
+| [Data Scientist (GenAI & ML) - UBS](./ubs-data-scientist-genai/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Senior Data Scientist (GenAI & Agents) - DHL](./dhl-senior-data-scientist/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Lead Data Scientist (Market Intelligence) - Hedge Fund](./hedge-fund-lead-data-scientist/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Senior Data Scientist (Integrity) - Grab](./grab-senior-data-scientist-integrity/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Data Science & Analytics - TikTok Shop](./tiktok-shop-data-science/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [AI & Data Scientist - Binance](./binance-ai-data-scientist/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
 
 ---
 
