@@ -50,6 +50,19 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Senior Data Scientist (Integrity) - Grab](./grab-senior-data-scientist-integrity/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
 | [Data Science & Analytics - TikTok Shop](./tiktok-shop-data-science/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
 | [AI & Data Scientist - Binance](./binance-ai-data-scientist/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Smart Working Senior Engineer (React + Capacitor)](./smart-working-senior-capacitor-engineer/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Veeam UI/UX Framework Engineer](./veeam-ui-ux-framework-engineer/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [Ciklum Senior Full Stack Engineer](./ciklum-senior-fullstack-engineer/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [US Enterprise Senior Full Stack (.NET + React + AI)](./us-enterprise-senior-fullstack-dotnet-react/) | `.md` & `.ipynb` | 25+ questions / 4 modules | ✅ New |
+| [AI / Software Development Lead](./ai-software-development-lead/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Agentsanywhere Senior Full-Stack AI Engineer](./agentsanywhere-senior-fullstack-ai-engineer/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
+| [Treasury Cube AI Engineer](./treasury-cube-ai-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+
+
+
+
+
+
 
 ---
 
