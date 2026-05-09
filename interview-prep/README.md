@@ -60,6 +60,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Creative Chaos Principal React Native Engineer](./creative-chaos-principal-react-native/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 | [Mobile Front-End Developer (Australian Client)](./australian-client-mobile-developer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [US Enterprise Senior Full-Stack Developer (Remote)](./us-remote-fullstack-developer/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
+| [Tether React Native Lead (Senior Mobile Engineer)](./tether-react-native-lead/) | `.md` & `.ipynb` | 40+ questions / 6 modules | ✅ New |
 
 
 
