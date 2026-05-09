@@ -1,37 +1,57 @@
 # Technical Study Guide: Senior Full Stack Engineer (Ciklum)
 
-## 1. Python & Django Mastery
-- **Django Internals:** Middlewares, QuerySet optimization (select_related/prefetch_related).
-- **REST APIs:** Building robust APIs with Django REST Framework (DRF).
-- **Asynchronous Python:** Using `asyncio` or Celery for background tasks (though the JD emphasizes AWS SQS/Lambda).
+## 1. AWS Serverless Ecosystem
+- **AWS Lambda:**
+    - Cold starts and optimization.
+    - Provisioned Concurrency.
+    - Integrating with API Gateway.
+- **Data Persistence:**
+    - **DynamoDB:** Partition keys, sort keys, GSIs (Global Secondary Indexes), and TTL.
+    - **S3:** Bucket policies, lifecycle rules, and static hosting.
+- **Messaging & Event-Driven:**
+    - **SNS vs. SQS:** When to use pub/sub vs. point-to-point queues.
+    - **Dead Letter Queues (DLQ):** Handling failed message processing.
 
-## 2. TypeScript & React Ecosystem
-- **React Patterns:** Custom Hooks, Compound Components, and Render Props.
-- **React Native:** Navigation, handling native device features, and performance differences from web.
-- **State Management:** React Context vs. Redux Toolkit for complex product flows.
+## 2. Python & Django Backend
+- **Django REST Framework (DRF):**
+    - Serializers and ViewSets.
+    - Authentication (JWT, Session).
+    - Permissions and Throttling.
+- **Asynchronous Python:**
+    - `asyncio` and `Celery` for background tasks (though SNS/SQS is preferred in serverless).
+- **ORM Optimization:** Avoiding N+1 queries using `select_related` and `prefetch_related`.
 
-## 3. AWS Serverless Deep Dive
-- **AWS Lambda:** Cold starts, environment variables, and execution limits.
-- **DynamoDB:** NoSQL modeling (Single Table Design), Partition/Sort keys, and GSI/LSI.
-- **Event-Driven Architecture:** Decoupling services using SNS and SQS.
-- **API Gateway:** Request validation, Authorizers (Lambda/Cognito), and Throttling.
+## 3. Frontend & Mobile (TS/React/RN)
+- **TypeScript:** Advanced types, Generics, and strict null checks.
+- **React:**
+    - Functional components and Hooks.
+    - State management (Zustand or Redux).
+- **React Native:**
+    - Platform-specific code (`Platform.OS`).
+    - Handling navigation and deep links.
 
-## 4. Cloud Infrastructure & DevOps
-- **CI/CD:** Designing GitHub Actions pipelines for multi-repo deployments.
-- **Infrastructure as Code (IaC):** Basics of Terraform or AWS CDK (often paired with serverless).
-- **Monitoring:** CloudWatch Logs, X-Ray for tracing, and alerting strategies.
+## 4. Cloud Infrastructure & CI/CD
+- **GitHub Actions:**
+    - Writing `.yml` workflows for build, test, and deploy.
+    - Managing secrets and environment variables.
+- **Terraform / AWS SAM:** Basic understanding of Infrastructure-as-Code (IaC) for serverless resources.
 
-## 5. Sustainability & Supply Chain
-- **Sustainability Metrics:** Understanding how software can track waste reduction and resource efficiency.
-- **Data Engineering:** Collaborating with data teams to process supply chain metrics.
+## 5. Architectural Design Patterns
+- **Microservices:** Service discovery and inter-service communication.
+- **Cloud Patterns:**
+    - **Circuit Breaker:** Preventing cascading failures.
+    - **Idempotency:** Ensuring duplicate requests don't cause side effects.
+- **Hexagonal Architecture:** Decoupling business logic from frameworks.
 
-## 6. Architecture & Best Practices
-- **SOLID Principles:** Applying them in a dynamically typed environment (Python/TS).
-- **Testing:** Unit testing (Pytest/Jest), Integration testing, and E2E (Cypress/Playwright).
-- **Security:** Securing S3 buckets, IAM roles (Least Privilege), and API authentication.
+## 6. Engineering Best Practices
+- **Code Reviews:** Focus on maintainability, security, and edge cases.
+- **Testing:**
+    - **Pytest** for backend logic.
+    - **React Testing Library** for frontend components.
+- **Documentation:** Using Swagger/OpenAPI for API documentation.
 
 ## Resources to Review
 - [AWS Serverless Learning Path](https://aws.amazon.com/serverless/getting-started/)
-- [Django Best Practices](https://django-best-practices.readthedocs.io/en/latest/)
-- [React Native Documentation](https://reactnative.dev/docs/getting-started)
-- [Supply Chain Sustainability (Basics)](https://www.unep.org/resources/report/sustainability-supply-chains)
+- [Django REST Framework Documentation](https://www.django-rest-framework.org/)
+- [React Native Performance Guide](https://reactnative.dev/docs/performance)
+- [Refactoring Guru: Cloud Design Patterns](https://refactoring.guru/design-patterns/cloud)
