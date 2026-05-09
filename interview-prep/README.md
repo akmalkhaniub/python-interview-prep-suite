@@ -61,6 +61,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Mobile Front-End Developer (Australian Client)](./australian-client-mobile-developer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [US Enterprise Senior Full-Stack Developer (Remote)](./us-remote-fullstack-developer/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 | [Tether React Native Lead (Senior Mobile Engineer)](./tether-react-native-lead/) | `.md` & `.ipynb` | 40+ questions / 6 modules | ✅ New |
+| [Full-Stack Firebase Specialist (Dubai Startup)](./dubai-firebase-specialist/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 
 
 
