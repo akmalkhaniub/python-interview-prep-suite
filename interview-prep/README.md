@@ -59,6 +59,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Treasury Cube AI Engineer](./treasury-cube-ai-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Creative Chaos Principal React Native Engineer](./creative-chaos-principal-react-native/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 | [Mobile Front-End Developer (Australian Client)](./australian-client-mobile-developer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [US Enterprise Senior Full-Stack Developer (Remote)](./us-remote-fullstack-developer/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 
 
 
