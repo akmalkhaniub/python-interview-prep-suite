@@ -57,6 +57,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [AI / Software Development Lead](./ai-software-development-lead/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
 | [Agentsanywhere Senior Full-Stack AI Engineer](./agentsanywhere-senior-fullstack-ai-engineer/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 | [Treasury Cube AI Engineer](./treasury-cube-ai-engineer/) | `.md` & `.ipynb` | 30+ questions / 6 modules | ✅ New |
+| [Creative Chaos Principal React Native Engineer](./creative-chaos-principal-react-native/) | `.md` & `.ipynb` | 35+ questions / 6 modules | ✅ New |
 
 
 
