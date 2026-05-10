@@ -73,6 +73,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [foodpanda Senior Data Analyst (Logistics Analytics)](./foodpanda-senior-logistics-analyst/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [Novo AI Orchestrator / Agent Engineer](./novo-ai-orchestrator/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [easypaisa Senior Data Scientist (ML & Gen AI)](./easypaisa-senior-data-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
+| [GNO Partners Full-Stack Engineer (Product Focus)](./gno-partners-fullstack-engineer/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 
 
 
