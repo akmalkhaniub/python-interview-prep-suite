@@ -71,6 +71,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Turing Machine Learning Engineer (MLE Bench Focus)](./turing-mle-bench/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [GNO Partners Full-Stack Engineer (Data/AI Focus)](./gno-partners-fullstack-data-engineer/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 | [foodpanda Senior Data Analyst (Logistics Analytics)](./foodpanda-senior-logistics-analyst/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
+| [Novo AI Orchestrator / Agent Engineer](./novo-ai-orchestrator/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 
 
 
