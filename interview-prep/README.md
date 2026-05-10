@@ -68,6 +68,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Careem Senior Data Scientist (Marketplace & Big Data)](./careem-senior-data-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [Pixalate Applied AI Scientist (PhD - Trust & Safety)](./pixalate-applied-ai-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [LineSlip Solutions Data Scientist (Insurance Mining)](./lineslip-solutions-data-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
+| [Turing Machine Learning Engineer (MLE Bench Focus)](./turing-mle-bench/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 
 
 
