@@ -69,6 +69,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Pixalate Applied AI Scientist (PhD - Trust & Safety)](./pixalate-applied-ai-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [LineSlip Solutions Data Scientist (Insurance Mining)](./lineslip-solutions-data-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [Turing Machine Learning Engineer (MLE Bench Focus)](./turing-mle-bench/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
+| [GNO Partners Full-Stack Engineer (Data/AI Focus)](./gno-partners-fullstack-data-engineer/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 
 
 
