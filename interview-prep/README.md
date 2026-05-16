@@ -86,6 +86,9 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [ImagineArt KMP Engineer](./imagineart-kmp-engineer/) | `.md` | 30+ questions / 6 modules | ✅ New |
 | [Lead AI Product Engineer](./lead-ai-product-engineer/) | `.md` | 40+ questions / 8 modules | ✅ New |
 | [Bank Beyond Banking React Native Lead](./bank-beyond-banking-react-native/) | `.md` | 25+ questions / 4 modules | ✅ New |
+| [MKTH Solutions Automation Engineer](./mkth-automation-engineer/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [Bank Beyond Banking Backend Engineer (Java)](./bank-beyond-banking-backend-java/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [NCR Atleos Software Engineer II (.NET)](./ncr-atleos-software-engineer-ii/) | `.md` | 25+ questions / 6 modules | ✅ New |
 
 
 
