@@ -89,6 +89,10 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [MKTH Solutions Automation Engineer](./mkth-automation-engineer/) | `.md` | 30+ questions / 6 modules | ✅ New |
 | [Bank Beyond Banking Backend Engineer (Java)](./bank-beyond-banking-backend-java/) | `.md` | 30+ questions / 6 modules | ✅ New |
 | [NCR Atleos Software Engineer II (.NET)](./ncr-atleos-software-engineer-ii/) | `.md` | 25+ questions / 6 modules | ✅ New |
+| [Avanza Solutions Senior AI Engineer Lead](./avanza-senior-ai-engineer-lead/) | `.md` | 5+ questions / 4 modules | ✅ New |
+| [Hubaix Senior AI Engineer (Voice Focus)](./hubaix-senior-ai-engineer-voice/) | `.md` | 5+ questions / 4 modules | ✅ New |
+| [Hybrid Mediaworks Senior Python AI Engineer](./hybrid-mediaworks-senior-python-ai-engineer/) | `.md` | 6+ questions / 4 modules | ✅ New |
+| [Beam AI Software Architect (GenAI)](./beam-ai-software-architect-genai/) | `.md` | 5+ questions / 4 modules | ✅ New |
 
 
 
