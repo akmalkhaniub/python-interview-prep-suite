@@ -75,6 +75,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [easypaisa Senior Data Scientist (ML & Gen AI)](./easypaisa-senior-data-scientist/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [GNO Partners Full-Stack Engineer (Product Focus)](./gno-partners-fullstack-engineer/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 | [Voice Agentic AI Developer (Calling Agents)](./voice-agentic-ai-developer/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
+| [Techsurge AI Engineer (Azure Multi-Agent)](./techsurge-ai-engineer-azure-agentic/) | `.md` | 30+ questions / 6 modules | ✅ New |
 
 
 
