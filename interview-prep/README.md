@@ -76,6 +76,16 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [GNO Partners Full-Stack Engineer (Product Focus)](./gno-partners-fullstack-engineer/) | `.md` & `.ipynb` | 35+ questions / 7 modules | ✅ New |
 | [Voice Agentic AI Developer (Calling Agents)](./voice-agentic-ai-developer/) | `.md` & `.ipynb` | 40+ questions / 7 modules | ✅ New |
 | [Techsurge AI Engineer (Azure Multi-Agent)](./techsurge-ai-engineer-azure-agentic/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [Polani GT Data Engineer — Architect](./polani-gt-data-engineer-architect/) | `.md` | 25+ questions / 6 modules | ✅ New |
+| [10Pearls Full Stack .NET Developer](./10pearls-fullstack-dotnet/) | `.md` | 30+ questions / 5 modules | ✅ New |
+| [Agentic AI Pro Interviews (Advanced Modules)](./agentic-ai-pro-interviews/) | `.md` | 50+ questions / 8 modules | ✅ New |
+| [AI/ML Researcher](./ai-ml-researcher/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [Edge AI & Data Engineer](./edge-ai-data-engineer/) | `.md` | 35+ questions / 7 modules | ✅ New |
+| [Exora AI Data Scientist](./exora-ai-data-scientist/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [Ikonic GenAI Engineer](./ikonic-genai-engineer/) | `.md` | 35+ questions / 7 modules | ✅ New |
+| [ImagineArt KMP Engineer](./imagineart-kmp-engineer/) | `.md` | 30+ questions / 6 modules | ✅ New |
+| [Lead AI Product Engineer](./lead-ai-product-engineer/) | `.md` | 40+ questions / 8 modules | ✅ New |
+| [Bank Beyond Banking React Native Lead](./bank-beyond-banking-react-native/) | `.md` | 25+ questions / 4 modules | ✅ New |
 
 
 
