@@ -78,7 +78,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Techsurge AI Engineer (Azure Multi-Agent)](./techsurge-ai-engineer-azure-agentic/) | `.md` | 30+ questions / 6 modules | ✅ New |
 | [Polani GT Data Engineer — Architect](./polani-gt-data-engineer-architect/) | `.md` | 25+ questions / 6 modules | ✅ New |
 | [10Pearls Full Stack .NET Developer](./10pearls-fullstack-dotnet/) | `.md` | 30+ questions / 5 modules | ✅ New |
-| [Agentic AI Pro Interviews (Advanced Modules)](./agentic-ai-pro-interviews/) | `.md` | 50+ questions / 8 modules | ✅ New |
+| [Agentic AI Pro Interviews (Advanced Modules)](./agentic-ai-pro-interviews/) | `.md` | 15 advanced Q&As / 2 modules | ✅ New |
 | [AI/ML Researcher](./ai-ml-researcher/) | `.md` | 30+ questions / 6 modules | ✅ New |
 | [Edge AI & Data Engineer](./edge-ai-data-engineer/) | `.md` | 35+ questions / 7 modules | ✅ New |
 | [Exora AI Data Scientist](./exora-ai-data-scientist/) | `.md` | 30+ questions / 6 modules | ✅ New |
