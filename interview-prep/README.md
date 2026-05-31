@@ -93,12 +93,10 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Hubaix Senior AI Engineer (Voice Focus)](./hubaix-senior-ai-engineer-voice/) | `.md` | 5+ questions / 4 modules | ✅ New |
 | [Hybrid Mediaworks Senior Python AI Engineer](./hybrid-mediaworks-senior-python-ai-engineer/) | `.md` | 6+ questions / 4 modules | ✅ New |
 | [Beam AI Software Architect (GenAI)](./beam-ai-software-architect-genai/) | `.md` | 5+ questions / 4 modules | ✅ New |
-
-
-
-
-
-
+| [Model Context Protocol (MCP) Integration Engineer](./mcp-integration-engineer/) | `.md` | 15+ questions / 2 modules | ✅ New |
+| [Compound AI Systems Architect](./compound-ai-systems-architect/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [Local LLM & Privacy-First AI Engineer](./local-llm-privacy-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [AI Red Teaming & Guardrails Security Engineer](./ai-red-teaming-security-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 
 ---
 
