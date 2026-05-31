@@ -293,3 +293,109 @@ Giving an agent a tool that fetches remote URLs (e.g., `fetch_url(url: str)`) op
 1. **Strict DNS Resolution & IP Blocklists:** Resolve the target domain to an IP address *before* sending the HTTP request. Verify that the resolved IP does not belong to private, loopback, or link-local address spaces (e.g., block `127.0.0.0/8`, `10.0.0.0/8`, `192.168.0.0/16`, and `169.254.169.254`).
 2. **Disable Redirects Followed by Client:** Do not let the HTTP client automatically follow redirects (HTTP 3xx). A request to a public domain could redirect to an internal IP. Intercept redirects and validate the redirect URL target recursively.
 3. **Use an Isolated Proxy:** Route all agent outbound requests through a dedicated egress proxy configured to block internal subnets and restrict protocols strictly to HTTP/HTTPS on standard ports (80/443).
+
+---
+
+## 🏗️ Advanced System Design Case Studies
+
+This section covers high-scale system design scenarios commonly asked in senior/staff-level AI architectural interviews.
+
+### Case Study 1: Designing a Real-Time Voice Agent Platform (Scale: 10,000 Concurrent Calls)
+**Problem Statement:** Design a system that supports 10,000 concurrent voice calls where users talk directly to LLM-powered agents. The system must maintain a latency of $<500\text{ms}$ (Time-to-First-Byte of audio back to the user) and handle user interruptions ("barge-ins") fluidly.
+
+#### 1. System Architecture Diagram:
+```
+[User Phone / WebRTC] 
+       │ (SIP / RTP Audio Stream)
+       ▼
+[Telephony Gateway (Twilio / LiveKit Voice)]
+       │ (Low-latency WebSockets - Raw PCM Audio)
+       ├─────────────────────────────────┐
+       ▼                                 ▼
+[Speech-to-Text (ASR) Engine]    [Text-to-Speech (TTS) Engine]
+(Deepgram / Whisper on GPUs)      (ElevenLabs / Cartesia API)
+       │ (Parsed Text Stream)            ▲ (Audio Chunk Stream)
+       ▼                                 │
+[Agent Orchestration Layer (LangGraph / Temporal)]
+(Maintains conversation state, fetches tools, runs prompt loops)
+```
+
+#### 2. Key Design Decisions:
+*   **Speech-to-Text (ASR) Integration:**
+    *   Utilize streaming WebSockets sending small raw audio buffers ($100\text{ms}$ chunks). 
+    *   Implement **Voice Activity Detection (VAD)** on the client or telephony edge to distinguish between ambient noise and user speech.
+*   **Orchestration & Tooling Latency:**
+    *   **Speculative Execution:** Begin fetching tools (like checking database fields) *before* the user finishes speaking if the ASR transcription exhibits high semantic confidence of the user's intent.
+    *   Stream output tokens from the LLM directly into the TTS engine instead of waiting for the full sentence to finish.
+*   **Interruption (Barge-in) Handling:**
+    *   When the local VAD detects new user speech while the agent is playing audio, the Telephony Gateway immediately clears the playback buffer and sends an **Interrupt Notification** to the Orchestration Layer.
+    *   The Orchestrator cancels the active LLM generation request (closes HTTP stream) and stops the TTS stream, resetting the agent state to "listening."
+*   **State & Worker Scaling:**
+    *   WebSocket connections are managed by a stateless gateway fleet. User session state is written to a highly-available **Redis cluster** with active replication, ensuring calls are not dropped if an individual worker node crashes.
+
+---
+
+### Case Study 2: Distributed Enterprise RAG for 10 Million Documents (Sub-Second Retrieval + Real-Time ACLs)
+**Problem Statement:** Design an enterprise RAG system containing 10 million highly-confidential documents (Word, PDF, Excel) synced from SharePoint and Google Drive. The system must support sub-second semantic search queries, and users must *never* retrieve documents they lack permission to read in Active Directory. Permission updates must reflect in the search index in under 5 seconds.
+
+#### 1. Data Ingestion & Sync Pipeline:
+```
+[SharePoint / Drive Changes] 
+       │ (Webhook / Change Log Listener)
+       ▼
+[Kafka Ingestion Topic]
+       │
+[Ingestion Workers] ─────────────────► [Active Directory Sync]
+(Extracts text, metadata, and ACLs)    (Syncs permissions to Redis Cache)
+       │
+       ▼ (Batched Vectors)
+[Distributed Qdrant / pgvector Cluster]
+(HNSW indexing configured for dense vectors)
+```
+
+#### 2. Technical Implementation:
+*   **Access Control List (ACL) Representation:**
+    *   Store permission groups directly in the metadata payload of each document vector as an array of group IDs: `{"allowed_groups": ["group_102", "group_505"]}`.
+    *   Maintain a real-time cache of user-to-group mappings in **Redis**.
+*   **Enforcing Security at Scale:**
+    *   Do not query all document embeddings and filter out results afterwards (post-filtering). This destroys retrieval recall and performance.
+    *   Use **Pre-Filtering** in the vector database. The database engine utilizes the user's Active Directory groups retrieved from Redis to traverse only the HNSW graph nodes that contain matching group IDs in their payloads.
+*   **Sub-Second Latency Optimization:**
+    *   Partition the vector database across multiple shards using group ID or department ID as the partition key.
+    *   Configure HNSW index parameters: `m=16` (number of links per node) and `ef_construction=64` to balance search speed and index size.
+    *   Maintain an in-memory Cache of popular embedding vectors to avoid GPU invocation overhead for repeating queries.
+
+---
+
+### Case Study 3: High-Availability, Resilient Enterprise LLM Gateway
+**Problem Statement:** Design a centralized Gateway API that routes LLM requests across multiple models (OpenAI, Anthropic, local vLLM servers) for all internal applications. The gateway must manage rate limits, perform automatic failovers, enforce cost budgets, and run semantic caching to save API costs.
+
+#### 1. Gateway Traffic Routing Flow:
+```
+[Client Applications] 
+       │ (POST /v1/chat/completions)
+       ▼
+[API Gateway (Reverse Proxy / Go or Rust)]
+       │
+       ├─► [Redis Rate Limiter] (Token Bucket per Tenant)
+       ├─► [Semantic Cache] (Bypasses LLM if query matches past results)
+       ▼
+[Routing Engine (Dynamic Tiering & Fallbacks)]
+       ├── Primary: Claude 3.5 Sonnet (Anthropic API)
+       ├── Fallback 1: GPT-4o (Azure OpenAI Endpoint)
+       └── Fallback 2: Local Llama 3.1 70B (vLLM Cluster on-prem)
+```
+
+#### 2. Architectural Features:
+*   **Dynamic Failover & Load Balancing:**
+    *   Implement circuit breakers (e.g., using Envoy or custom middleware). If a provider returns a `503 Service Unavailable` or a rate limit `429 Too Many Requests` error 3 times consecutively, the Gateway routes traffic to an alternative provider instantly.
+    *   Distribute API calls across multiple keys and endpoints (e.g., balancing between direct Anthropic API and AWS Bedrock hosting).
+*   **Semantic Caching Layer:**
+    *   Integrate a fast, local vector database (like Redis VL) to index past prompts and their corresponding responses.
+    *   For incoming prompts, run a cosine similarity match. If similarity exceeds $0.96$, return the cached response, reducing latency from seconds to $<20\text{ms}$ and avoiding token fees.
+*   **Context-Length Aware Routing:**
+    *   Parse the input payload sizes. If the prompt contains a massive context (e.g., $>100\text{K}$ tokens), route it to models with larger context windows and cheaper long-context input pricing (e.g., Claude 3.5 Sonnet or Gemini 1.5 Pro). Route short prompts to cheaper edge models.
+*   **Strict Cost Telemetry:**
+    *   Maintain a rolling window token counter in Redis for each client application.
+    *   If a client application exceeds its monthly budget threshold (e.g., $100.00 USD), block further API execution and return a structured billing exception.
+
