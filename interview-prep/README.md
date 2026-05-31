@@ -105,6 +105,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 ```
 interview-prep/
 ├── README.md                       ← You are here
+├── consolidated-app-dev-stages.md  ← Master Q&A Reference Guide (by Dev Stage)
 ├── python-staff-engineer/          ← Runnable Jupyter notebooks
 │   ├── README.md
 │   └── 01..27-*.ipynb
