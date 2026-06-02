@@ -97,6 +97,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Compound AI Systems Architect](./compound-ai-systems-architect/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Local LLM & Privacy-First AI Engineer](./local-llm-privacy-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [AI Red Teaming & Guardrails Security Engineer](./ai-red-teaming-security-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [Synapsebiz Blockchain Architect](./synapsebiz-blockchain-architect/) | `.md` | 20+ questions / 2 modules | ✅ New |
 
 ---
 
