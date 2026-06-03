@@ -100,6 +100,8 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Synapsebiz Blockchain Architect](./synapsebiz-blockchain-architect/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Smart Working Anti-Bot Engineer](./smart-working-anti-bot-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Apify Proxy & Unblocking Engineer](./apify-proxy-unblocking-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [AI Web Scraping & Self-Healing Parser Engineer](./ai-web-scraping-self-healing-parser/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [Rust Blockchain Protocol Developer](./rust-blockchain-protocol-developer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 
 ---
 
