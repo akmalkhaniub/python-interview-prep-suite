@@ -98,6 +98,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Local LLM & Privacy-First AI Engineer](./local-llm-privacy-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [AI Red Teaming & Guardrails Security Engineer](./ai-red-teaming-security-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Synapsebiz Blockchain Architect](./synapsebiz-blockchain-architect/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [Smart Working Anti-Bot Engineer](./smart-working-anti-bot-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 
 ---
 
