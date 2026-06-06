@@ -102,6 +102,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Apify Proxy & Unblocking Engineer](./apify-proxy-unblocking-engineer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [AI Web Scraping & Self-Healing Parser Engineer](./ai-web-scraping-self-healing-parser/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Rust Blockchain Protocol Developer](./rust-blockchain-protocol-developer/) | `.md` | 20+ questions / 2 modules | ✅ New |
+| [Engineering Manager (Agentic AI Platform) - Rezolv](./rezolv-engineering-manager-agentic-ai/) | `.md` | 35+ questions / 6 modules | ✅ New |
 
 ---
 
