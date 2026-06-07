@@ -104,6 +104,8 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Rust Blockchain Protocol Developer](./rust-blockchain-protocol-developer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Engineering Manager (Agentic AI Platform) - Rezolv](./rezolv-engineering-manager-agentic-ai/) | `.md` | 35+ questions / 6 modules | ✅ New |
 | [Caliberly Full-Stack AI Engineer (Desktop & TS)](./caliberly-fullstack-ai-engineer-desktop/) | `.md` | 10+ questions / 3 modules | ✅ New |
+| [VentureDive JavaScript Full-Stack AI Engineer](./venturedive-fullstack-ai-engineer/) | `.md` | 5+ questions / 3 modules | ✅ New |
+| [HALA Fintech AI Engineer](./hala-ai-engineer-fintech/) | `.md` | 5+ questions / 3 modules | ✅ New |
 
 ---
 
