@@ -103,6 +103,7 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [AI Web Scraping & Self-Healing Parser Engineer](./ai-web-scraping-self-healing-parser/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Rust Blockchain Protocol Developer](./rust-blockchain-protocol-developer/) | `.md` | 20+ questions / 2 modules | ✅ New |
 | [Engineering Manager (Agentic AI Platform) - Rezolv](./rezolv-engineering-manager-agentic-ai/) | `.md` | 35+ questions / 6 modules | ✅ New |
+| [Caliberly Full-Stack AI Engineer (Desktop & TS)](./caliberly-fullstack-ai-engineer-desktop/) | `.md` | 10+ questions / 3 modules | ✅ New |
 
 ---
 
