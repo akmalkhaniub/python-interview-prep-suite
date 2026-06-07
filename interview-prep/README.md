@@ -106,6 +106,8 @@ A comprehensive, role-based interview preparation library. Each subfolder target
 | [Caliberly Full-Stack AI Engineer (Desktop & TS)](./caliberly-fullstack-ai-engineer-desktop/) | `.md` | 10+ questions / 3 modules | ✅ New |
 | [VentureDive JavaScript Full-Stack AI Engineer](./venturedive-fullstack-ai-engineer/) | `.md` | 5+ questions / 3 modules | ✅ New |
 | [HALA Fintech AI Engineer](./hala-ai-engineer-fintech/) | `.md` | 5+ questions / 3 modules | ✅ New |
+| [Halian AI Engineer (Agentic Workflow Automation)](./halian-ai-engineer-agentic-workflow/) | `.md` | 5+ questions / 3 modules | ✅ New |
+| [Deloitte Luxembourg Full-Stack AI Engineer (GenAI)](./deloitte-luxembourg-fullstack-ai-engineer/) | `.md` | 5+ questions / 3 modules | ✅ New |
 
 ---
 
